@@ -16,9 +16,6 @@
  - [MDN](developer.mozilla.org), our main reference for most of the topics the course is to cover. Personally, I encourage you to take a look there.
  - And finally, our Facebook Page
 
-4- Intro to HTML:
-What information is there in an HTML file? Which software can understand that? From its name, Hyber-Text Markup language, it's obvious that is used to __Mark up__ some special pieces of information. But for whom ? Here comes our good fellow, the Browser. He knows well what these "special parts" are and how to show them to the user. So we gonna learn these special pieces of information, the __Tags__ , their propreties - called __Attribues__ - and how they're showed to the user. We gonna use them to build the __Elements__ of the webpage. Basically an HTML Tag is written in this way
-    
-    <tag-name attribute-name="attribute-value"> [tag-content] </tag-name>
+4- Intro to HTML
 
 5- 
