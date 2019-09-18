@@ -66,3 +66,27 @@
             1. Mechanism
             2. Props and Methods
                 1. Array.length
+    6.  DOM Methods to access elements
+        1. `document.getElementById()`
+        2. `document.getElementsByTagName()`
+        3. `document.getElementsByClassName()`
+        4. `document.querySelector()`
+        5. `document.querySelecorAll()`
+    7.  Manipulating inner HTML content of an element using `innerHTML` property of DOM Elements
+    8.  Accessing the list of classes using `classList` property of DOM Elements. Adding class using `classList.add()` method. Testing the existence of a class using `classList.contains()`, or even remove a class through the `classList.remove()`. 
+    9. Forms in the DOM and how to access the submitted values of the fields as follows :-
+
+            var formElement = document.querySelector("#my-form");
+
+            //The first line of code means that this will happen when the form is submitted
+            formElement.onsubmit(function(event) {
+                console.log(this.username) // this prints the value of the field whose name attribute is set to "username"
+
+                console.log(this.email) //same, this prints the submitted value of the field whose name attribute is set to "email"
+
+                this.reset(); //this cleans the form on submit
+            });
+    
+**General Links** : [W3Schools HTML DOM Series](https://www.w3schools.com/js/js_htmldom.asp) - this is just the first lesson do follow all the lessons | [MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents) | [PART2 in js.info named Browser: Document, Events, Interfaces](http://javascript.info/)
+
+## Thank You :heart:
