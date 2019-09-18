@@ -1,3 +1,5 @@
+# Session 6 Summary
+
 1.  Data Types >>> [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types) | [js.info](http://javascript.info/types)
 
     1. Primitives
