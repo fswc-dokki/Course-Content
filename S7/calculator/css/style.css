@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Lato;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 20px;
+    box-shadow: 5px 5px 10px 10px darkgreen;
+}
+
+.container > * {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.full {
+    width: 100%;
+}
+
+.container h1 {
+    color: darkgreen;
+}
+
+#input-section {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+
+#input-section * {
+    margin: auto 0; 
+}
+
+#show-op {
+    margin: auto 10px;
+    color: darkgreen;
+}
+
+#input-section input {
+    width: 42%;
+    min-height: 35px;
+    border: 1px solid darkgreen;
+    text-align: center;
+}
+
+#operation-section {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+
+button {
+    font-size: 1.5em;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+}
+
+button:hover {
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+}
+
+button:focus {
+    outline: none;
+    border: 1px solid green;
+}
+
+#operation-section button {
+    width: 18%;
+    margin: 0;
+}
+
+#result-section {
+    border: 1px solid black;
+    padding: 10px;
+    min-height: 50px;
+}
