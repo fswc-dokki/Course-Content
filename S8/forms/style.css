@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+}
+
+fieldset {
+    border: none;
+}
+
+form {
+    margin: 10px auto;
+    width: 95%;
+    padding: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid green;
+}
+
+form input:not([type="radio"]),
+form label {
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+}
