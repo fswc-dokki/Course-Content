@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            var times = parseInt(prompt("How many times ?"));
+            var counter = times;
+            var score = 0,
+                newEntry,
+                rand;
+
+            while (counter !== 0) {
+                do {
+                    newEntry = parseInt(
+                        prompt("Guess a number from 0 to 1000")
+                    );
+                    console.log(newEntry, typeof newEntry);
+                } while (newEntry < 0 || newEntry > 1000 || newEntry === NaN);
+
+                rand = parseInt(Math.random() * 1000);
+                alert(`You're ${Math.abs(rand - newEntry)} away!`);
+                counter--;
+            }
+        </script>
+    </body>
+</html>
