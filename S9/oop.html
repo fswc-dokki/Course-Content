@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            class Book {
+                constructor(title, author, desc) {
+                    this.title = title;
+                    this.author = author;
+                    this.desc = desc;
+                }
+                print() {
+                    console.log(
+                        `Book: Title = ${this.title}, Author = ${this.author}, Description = ${this.desc}`
+                    );
+                }
+            }
+
+            class FantasyBook extends Book {
+                constructor(title, author, desc, rating) {
+                    super(title, author, desc);
+                    this.rating = rating;
+                }
+                print() {
+                    super.print();
+                    console.log("I'm from the derived class");
+                }
+            }
+        </script>
+    </body>
+</html>

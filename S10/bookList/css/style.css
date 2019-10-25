@@ -1,0 +1,110 @@
+/* reset all styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #2a2a2a;
+}
+
+h1 {
+  text-align: center; /* center the title of the app */
+  padding: 30px;
+}
+
+/* color the icon and the "list" word */
+h1 .fa,
+h1 span {
+  color: #02acbe;
+}
+
+/* centeralized the form */
+.container {
+  margin: auto;
+  width: 78%;
+}
+
+/* style the form */
+form .field {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+form input,
+form textarea {
+  outline: 0;
+  width: 100%;
+  padding: 9px;
+  border-radius: 10px;
+  border: 1px solid #8a8a8a;
+}
+
+form textarea {
+  resize: none;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #02acbe;
+}
+
+form .form-submit {
+  width: 100%;
+  padding: 7px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 0;
+  background-color: rgba(2, 172, 190, 0.8);
+  color: #fff;
+  outline: 0;
+}
+
+form .form-submit:hover,
+form button:focus {
+  background-color: rgba(2, 172, 190, 1);
+  cursor: pointer;
+}
+
+/* style the cards field */
+.book-cards {
+  margin-top: 40px;
+}
+
+.book-cards .card {
+  border: 1px solid #8a8a8a;
+  padding: 20px;
+  position: relative;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.book-cards .card-desc {
+  margin: 10px 0;
+}
+
+.book-cards .card-author {
+  font-weight: bold;
+}
+
+.book-cards .card-remove {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  font-size: 15px;
+  background-color: transparent;
+  padding: 7px;
+  border: 0;
+  cursor: pointer;
+}
+
+.book-cards .card-remove:hover {
+  color: crimson;
+}
