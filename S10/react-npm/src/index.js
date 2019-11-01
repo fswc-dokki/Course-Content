@@ -1,12 +1,6 @@
-import _ from "lodash";
+import React from "react";
+import ReactDOM from "react-dom";
 
-function component() {
-    const element = document.createElement("div");
+const element = <h4>Hello, React !</h4>;
 
-    // Lodash, currently included via a script, is required for this line to work
-    element.innerHTML = _.join(["Hello", "webpack"], " ");
-
-    return element;
-}
-
-document.body.appendChild(component());
+ReactDOM.render(element, root);

@@ -1,6 +1,6 @@
 # S10 Summary
 
-**JS Hint of the Day** : 
+**JS Hint of the Day** : jQuery
 
 1. Problem and Solution - Why, what and how ?
    1. Full Page Re-rendering

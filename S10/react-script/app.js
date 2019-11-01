@@ -1,5 +1,8 @@
 const root = document.querySelector("#root");
 
+const reactElement = <h1>Hello, React!</h1>;
+
+ReactDOM.render(reactElement, root);
 /**
  * Hint:
  *  Use ReactDOM.render to render the created Element to the root
