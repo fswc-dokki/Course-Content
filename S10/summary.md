@@ -27,12 +27,3 @@
 13. Running our first great app !
 14. React Components : the building blocks
 15. Functional components
-16. Some JSX Tricks + Adding CSS/Images >> What if we were still using webpack ?
-17. props and states
-18. Class components
-19. Statefull vs Presentational
-
-Application
----
-1. Recreating the bookList app
-2. Adding like button + `isLiked` state

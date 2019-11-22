@@ -1,3 +1,8 @@
+import kStore from './Store'
+
+const store = new kStore("book2");
+console.log(store.ShowAll());
+
 // select the form
 const form = $("#book-form"); // const
 
