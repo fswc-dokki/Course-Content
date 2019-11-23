@@ -10,13 +10,9 @@ export default class BookApp extends Component {
         super(props);
         this.addBook = this.addBook.bind(this);
         this.updateData = this.updateData.bind(this);
+        this.removeBook = this.removeBook.bind(this);
         this.state = {
-            newBook: {
-                title: "",
-                author: "",
-                desc: ""
-            },
-            data : store.ShowAll()
+            data: store.ShowAll()
         };
     }
 
@@ -27,16 +23,20 @@ export default class BookApp extends Component {
     }
 
     addBook(title, author, desc) {
-        if (
-            title !== "" &&
-            author !== ""
-        ) {
+        if (title !== "" && author !== "" && !store.Found({ title, author })) {
             let newBook = {
                 title,
                 author,
                 desc
-            }
+            };
             store.Add(newBook);
+            this.updateData();
+        }
+    }
+
+    removeBook(title, author) {
+        if (title && author) {
+            store.Remove({title, author});
             this.updateData();
         }
     }
@@ -45,7 +45,7 @@ export default class BookApp extends Component {
         return (
             <div className="container">
                 <BookForm onSubmit={this.addBook} />
-                <BookCardsContainer data={this.state.data} />
+                <BookCardsContainer data={this.state.data} deleteHandler={this.removeBook}/>
             </div>
         );
     }
