@@ -10,12 +10,13 @@
    1. MVC (Classical SSR - Templating)
    2. API (Modern frameworks CSR and NodeJS)
 5. Networks basics
-   1. UDP / HTTP / FTP >> [MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
-   2. HTTP Request structure
+   1. IP and URI
+   2. UDP / HTTP / FTP >> [MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+   3. HTTP Request structure
       1. Methods
       2. Header
       3. Body
-   3. Response codes
+   4. Response codes
 6. What's Node.js and Why we gonna use it ? >> [NodeJS](https://nodejs.org/en/about/)
 7. Databases
    1. What and Why
