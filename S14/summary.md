@@ -18,8 +18,3 @@
       3. Body
    4. Response codes
 6. What's Node.js and Why we gonna use it ? >> [NodeJS](https://nodejs.org/en/about/)
-7. Databases
-   1. What and Why
-   2. SQL or NO
-   3. Possibilities
-   4. Why MongoDB ?
