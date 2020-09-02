@@ -15,8 +15,8 @@
    1. Domain
    2. Boundary Value
    3. Code Coverage
+running tests using `npm run test`
 3. Testing a simple backend app using `assert`
 4. Testing DOM
-5. Mocks
+5. Mocks, stups and spies
 6. Implementing testing to react components
-7. running tests using `npm run test`

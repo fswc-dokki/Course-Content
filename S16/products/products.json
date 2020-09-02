@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Pespi",
+    "price": 50,
+    "amount": 100
+  },
+  {
+    "name": "Indomi",
+    "price": 10,
+    "amount": 200
+  }
+]

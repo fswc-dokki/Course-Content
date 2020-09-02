@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/fswc-dokki/Course-Content/issues"
   },
-  "homepage": "https://github.com/fswc-dokki/Course-Content#readme"
+  "homepage": "https://github.com/fswc-dokki/Course-Content#readme",
+  "dependencies": {}
 }

@@ -17,6 +17,9 @@
    4. Sending/Recieving Errors
 4. Implementing in our Products API
 5. Authentication
+   1. Session-based
+   2. Token-based
+   3. JWT
 6. Front-end implementation
 7. Back-end imp.
 
